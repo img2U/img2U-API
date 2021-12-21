@@ -1,6 +1,30 @@
 ### 이미지 캡셔닝을 이용한 크롬 확장프로그램(Extension) img2U 개발을 위한 API
 
 -----
+- **:warning:사전설명:**
+  - **연구개발 진행은 연구실 서버를 통하여 진행하였으며, 2021년 12월 1일기준으로 서버를 반납하여 실제 본 저장소의 API를 사용하기 위해서는 사전의 서버구축 및 세팅이 필요합니다.**
+
+- **최종보고서:** 
+  - :page_facing_up: [최종보고서](https://github.com/img2U/img2U-API/blob/main/img2U_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+
+- **Extension Repository:**
+  - :page_facing_up: [img2U-Extension](https://github.com/img2U/img2U-Extension)
+- **영상링크:**
+  - :film_strip: [Youtube](https://www.youtube.com/watch?v=3N2XEK0JUtE)
+
+-----
+- **모델 구조 및 API 구조**
+    <details> 
+      <summary><b>모델구조: (클릭하여 확인) </b></summary>
+        <img src="https://github.com/img2U/img2U-API/blob/main/structure_2.png">
+    </details>
+
+    <details> 
+      <summary><b>API구조: (클릭하여 확인)</b></summary>
+        <img src="https://github.com/img2U/img2U-API/blob/main/structure_1.png">
+    </details>
+
+-----
 
 - **A. 파일구조**
 
@@ -10,6 +34,7 @@
     - `image_captioning.py`: image captioning 모델 구조 코드
 
   - [checkpoints/train](https://github.com/img2U/img2U-API/tree/main/checkpoints/train) (folder): 모델 저장을 위한 폴더
+  - [captions.pkl](https://github.com/img2U/img2U-API/blob/main/captions.pkl) (file): caption을 pickle파일로 저장한 파일
 
 -----
 
@@ -36,4 +61,4 @@
 -----
 
 - **C. 실행방법:**
-    - 본 API폴더 에서 `python app.py`로 API서버 실행
+    - **본 API폴더 에서 `python app.py`로 API서버 실행**
