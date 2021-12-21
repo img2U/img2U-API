@@ -1,6 +1,6 @@
 ### 이미지 캡셔닝을 이용한 크롬 확장프로그램(Extension) img2U 개발을 위한 API
 
-:arrows_counterclockwise:	**update@2021.12.21**
+:arrows_counterclockwise:	**updated@2021.12.21**
 
 
 -----
